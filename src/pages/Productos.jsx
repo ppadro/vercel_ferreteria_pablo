@@ -15,7 +15,7 @@ export default function Productos() {
   const [paginaActual, setPaginaActual] = useState(1);
 
     useEffect(() => {
-    document.title = "Tienda de Juegos de Mesa | Productos";
+    document.title = "Ferretería Pablo";
    
     // Función para actualizar meta tags
     const updateMetaTag = (name, content, attribute = 'name') => {
@@ -30,14 +30,14 @@ export default function Productos() {
     };
 
     // Meta tags básicos
-    updateMetaTag('description', 'Explora el catálogo de juegos de mesa. Encuentra juegos históricos, clásicos, modernos y educativos.');
-    updateMetaTag('keywords', 'juegos de mesa, juegos históricos, juegos clásicos, juegos modernos, juegos educativos');
+    updateMetaTag('description', 'Explora el catálogo de herramientas. Encuentra todo lo que necesitas para tus proyectos en Ferretería Pablo.');
+    updateMetaTag('keywords', 'Herramientas, Ferretería, Materiales de construcción, Jardinería, Bricolaje, Productos para el hogar');
     updateMetaTag('author', '@webmaster');
     updateMetaTag('robots', 'index, follow');
 
     // Open Graph
-    updateMetaTag('og:title', 'Tienda de Juegos de Mesa', 'property');
-    updateMetaTag('og:description', 'Explora el catálogo de juegos de mesa.', 'property');
+    updateMetaTag('og:title', 'Ferreteria Pablo', 'property');
+    updateMetaTag('og:description', 'Explora el catálogo de herramientas.', 'property');
     updateMetaTag('og:type', 'website', 'property');
     updateMetaTag('og:image', 'https://tudominio.com/logo.jpg', 'property');
     updateMetaTag('og:url', window.location.href, 'property');
